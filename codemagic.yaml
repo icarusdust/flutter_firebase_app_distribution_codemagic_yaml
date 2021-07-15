@@ -49,7 +49,7 @@ workflows:
     publishing:
       firebase:
         firebase_token: Encrypted(Z0FBQUFBQmc3LVJ0U21DVlc0d09MbVR6N0drVTBmSVY2QmtFbVhvdFRtU1JYSFVFaFlzb0dtY2xsc29Tc21jWkRYSW9MMVRpTXF5MDhRendyX1I1SHNLb3lyWGptVUx6a2pHTk1Nc3lIcHB1NDBHbHF2eWxQZFRTbEJNd3hLYTE1aEtSWmVrTk54OWQtMERacEdkTEh4UXd2alJldEZqOEpBdGVSemU4LWN0cnZkZU5vcXJ4b3dyaUdndjF5VVIyZmFFRmtkWlNuZ0R0WDhDUURRNU5PRVpIVVE3aEM1QmMzQT09)
-          android:
+        android:
             groups: 
               - androidTesters
 
