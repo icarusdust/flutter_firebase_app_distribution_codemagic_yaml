@@ -1,0 +1,133 @@
+workflows:
+  android-workflow:
+    name: Android Workflow
+    max_build_duration: 120
+    environment:
+      vars:
+        FCI_KEYSTORE_PATH: /tmp/keystore.keystore
+        FCI_KEYSTORE: Encrypted(Z0FBQUFBQmc3LUVMckdNa0dKN2hYdGJaMm1yekRuWG5sZ3lrX0tCTDloMnRPMnN2VHBWYnBKM09fc0pmNFdmVGp5TDFyNng1X0xBbkJ0bkhVcFN6SklGV0N1b1MzXzNhSTQ4S2VDbndaQ0dsMHdjNnFFS2hTZkZfUnNvVUJadDNDb0xLSWZxMEtUZW1DdkRteFVKanJHS0RFSUx2NVBoRWJ0dlpheXBhNnJBdGlMX0NjSERzLV83dGJCOC1BMVpqYS1QT0lYUi1zVW1uY0Y3aHNWUkFnYmoxb2xTSG9uRVBsYjlIazlPTlVGOGo5MWU1VmFFSjhHVTZ6a1hsRGlPTUZQRnVjVzZjcmtzZjkyQlpTZ0ZiYUItY2dyY3lUQzhCY051S2V3dEhOUDdJdTgyX3JXNEFCRGhaTXdqTDJrbW1NY0RxQ3BsV29LVVlLQkJReGxqMzE3RXpUSnMwclNxY2VGS3Y4UFNiTEpWS0ZudWxZR0tLckhmTmJNcUpIaHNsTnAtWXFyWXhUZ0VYbUJoTm9ldnhOT3VoUTBHbDBVZ0drQWtrSW1Zdkpvc1NiUEZMYUlYa0pvcm1KVWJIeFV6bUpXQ1pGYVNJU3hHWU1tSEt5SXRFb1Buek9jU0xhNjVmMnBlZFdnV0dWMzl3b2RUakdobk56bmZWRUdkWkxlLXVRdE9ZMUx6MC1xUVZHaVBrSWlfN1A4UU9wS2tPejFRXzhnUjlyallQYVV3TDRLaEFqb1VWd3ZSWTZ6bzJfNU9qaUtha1RPZmpoX1RJOGk2alV1LTB0allXOWVSRGRCZE8tNFY4dV9TS29CT1Z0eVRvVjNLeEVlNkFUcEJMTE1KUEVwZ3NCN3NMZEJhcTg3dGtEdGZrRDJMNktXUnlPRFJZenIzdWdZVmVoY3RnVURHWXlfUnEydUZPMVBUTGktS1psb1FVS1piWThUNlY0d3BUUi1rVmVMY055QUQwQ3Q5Zko1X0o5U3B2Zk1HdVVXYWxSeW11d2dOLU13SExLNmpQY2ZmQ2VlLXRSN1otVVlaM0ZQUFJuMno2dy1zd0JiTmstSW4zaVg5N1BpOWh5bnFuWHFYZ1g3SnRGUzk0Q0FSV1FGbE5aTXM3NDlWZXg2d3VUQi1acWoyQ3hOWFpzUHRaNi1yMGZFNUFLazNjdUNmVmtRcnVrcmU3VWh3QThtWHdXSGxOYTNwN1Jmd1VjUXZ0M244WXRMQ21Db0FaN0dEWmdtOHFWYVRudFUyOW5XamI1NmxxblNKU1hWaGo4bkt6LXVueGtmM1UtZEliM0pOVTJmVF9MSXNHdF94bllxZ3RtVFl5eG5pR0ZxU2p1M1pLWXRXRWFObE5ITFoxVzZlUURQNURPYmFqTlJJMWZsd2FHNEpReEE1U1Z3S1Y5Ym9DWGpEaUI5cXdXMUZYYWFGRGoxQTl5cnRWYy10Z1JuektvX3JmVGdRQ2h4UUxta1oySFhLdDNYQmlZUzFDazN1UEFqRlhfMjM1MDVTVFpzRGFDWHhnQUtpYkNDcGZScTZrWGVJTUJadmN5U3M1a3R0dHFCVnV4bURLaG9zY213SW1qeU5wa1hIOGhFZ20zZ1duZE9YbjdNT0MxdDNsWFkzNnUtNGg5ZTFES29MU205V1FLdWhEVG1IZXkxNFNqRVFIN2pQZW5FZHI5NTNsOFhtaGpkMWZKbk4tMnFmTFpCRVdKeTNud2JoSDBCUURma0xqOHFnRmRtN2p5X1VoYWNLUDRBY0Z0S0gxbWY4VGNwWDA5ZmgyWWRuby1yLVFkQnJYaDRFTVJwOU5tV0x0LXFFQVZLWFhvcXhwZjZyV0NlOExGejZZQzdCbkF3bDQtc2xkWmxIWndCazA1aTBueThVWUduYnVzaTRWOHpUOTBPcDJFYXNGQ2NOYVVWcHJCbUk3VEFYX0pXUWFTLXpzNHl5T0lXVGZCU0pwa2QyMk1wUkw3NUp6QTZ1a05Ic0hWWE1EVlFuQ2FOVUMwdnFLWUszb0Frbk52aWhQQmNVRzZrZGR5R2V1cFZ1bm1NSUM3U2JVbENyeXdZbDJHRFNpZWZxa2E3bFZoYkpVcmZNLU5hekUyNm1QVzk2ck1BYThNeWdVQ2Q4Q0Z1Z3I5WlVNUmFtbTBXaERxSXBMc09FeWFXck1ZbWNvUlFjM2N5ZHV2SFI4c3Z2UlhXNm40TzNhdlJ6czEzOUM1WVVpcU5KU2FsME9fQTZodkRNWnZ3TFNYMXVOalJLWklQZXA3Y1dtd1VwRUlYZkQwRkVBekRpRUpMdVN4My1OUE5FTHpab0pZdERlY1ZWbzFIRWVGNEp1RUo0TmxWTTJhYmtvcUpLUWdhN1REOHpER19vZmhzbERtWHdEWFllR3FCQVVEZjZKWlNYSGRqNTJnYlE1bG96MkJFRVNFM2ItTF9sMVB2LVJ0dk5WRkR3SVZERDhJbE9fOEkzMGk1dmdxWURFMTFxcFFYY1FRRFNKbmNkaWhhSHBqMnZwYXFFdFR6eW8taXoxNGI1S2xLTng0U2VWMTNNaXpIUWd0MXo4MFpJb0h6MjRQZm9wLVdDOTJ0WjFDckNDSE9WYTN1NnhKdUEyMmdtVjZ2QjI1bG43QkE1NDRJSGtvT083Z21vT3pmaWVJSnA4Uml4NENKNWtYMXRpX3hiT1lfQXBOUXBNaUViMk1jMnRDYWZEUkdXTW4zRGwxSnNZZGwyRHo3cE44dUxpVWdnMnN5MjBWci0yeWpWR1pSSFZDcHk2bmxseUlPanB3azJnTWd0ZlV5T2pCcFZXYV9JSTJKYzVOY010QVVQQS1ic2NHUmpUNzk1YlhQTDlsZV9mVGZSbmtKZHpvTV9jbjBfZTl5NUJ3LW5IbmhpQ2VTM1NpNDhkZ0k2RDJBLWI2QnlWNF9sYktQeFVIQjh4cGdmRFA2d2Z1TnMySExuQ3lXaWRGUDRXRTh5NU1YM3JKMUg3bU5ER2VleG1mZlhUU1VZaGJWUDBtMWtPbnA0TzRkMHZGVmx2STdnRVFTVVE1eFFqckJVeE9YSU01OUFsZFhtNFBTZDBCR0xtTFdVX01LY1VIVnROR01DcW45Y0RwbFJwckxUeUJVcmhfTnctejlqMnhkYldkUlNpOXF5NUp1ME9OVGljMWRCT2hHZkNKWTlfcHU0X19kNjNYTlNvY24yRU1FZzdsQjdEM0lUQzVVNXdxNTdDZUNMaFJ4SVNNZXduVVBGQ0VNU1VSRklIR0cwSUdmRVZTVjRhQkhsRTNCOHVsYl9LRXRWUUxmUEZEX09QMkg1ajN0SDV3QnllVUliaXA5T0dsRUh6TmlSclY4OFpIekNHV29WVU5oU212YlFhX1JoaHlvbXpaZ0hzNHRrNG52c2RINVJmNjlTcVlYXzlnQm9zemVmZmkxRm4zMmVOT19SWS1ZUE5jbXNKWXdoME9zb2ZXOGk1OU9sOHBOblFCRmJ3bG13ajZwR0F0cVF5UmdxTEsyT2RFTXFVUHB0V2JyVVR0aFZWSHVHMTY1Y2RxclN4SnkxUmxXMmJkLVdqWEFOOHBUd0FNSFdEc3RDSU1HWG12a3lKUHFGU2hiTVNCQlNzXzJyWmxCNHFLa0prdDJqR05nSUtxM0RqSWtWaTJBRjA4bTZKZW82QzVRU3RHb0hkVkV6ckFaY3M4VFRYZ0hMM3JDOFVCZEFXdjRESDVobzNaRTlab2hwWFh1ZTRWVm10cmpxY1h0cC0zT2lEQTkyLUZ0YVhLaXREZkVrYUROZXZ2bEhWcFlCcFczR2J0eFN6UjUza1RQOGlFbzJ5d2xWMmVEUHdVb3ktaTZIMzJSS2lXUDNwSHdfR0dWQTUwMzQ5VGFkemtBNXpNenhpdFNkdVpqU2h5MC1MelNFLTd2d0lWUWFlSVB5REhyTWFUT2M1N1ZWalVIZ1BiMU5WaUVCdm93dTZsV2I3U0lzbWx4c3B4cmlmTWJxSTJTZW9ZNDVNeUpxWG5lU3Q1cWhPRlhnVnNhdlIwUTJ3Y2VpTUs0Rm05UlVRUzZCYXkzblJCUmlrdjFpeWxXd2J0U1ZWMlBLVmMzRW1sT2RicGxTNHhhdFRTWnd4R0xSaUhxYzNiNG1SaWNJbjg5Z3kwRWNJS1ZET1NOT3Vkbk40bElNc0Z5NDVVbGxkN3hOTEdkbE5IcEF3NTVCZERuOGZwSFgzVldfdFZ5bGwyT3hJNW9obFFtcE9XMmdlRzJWZWYwWVRDRFd6My1GRGVwNktWNkQ3TDB2ZmtqUlgtN0hfaTBlbWMwX1BwZkJqMkZzcFp0Z1VWZXM3WnZfRjJzR0tmdnN0bjBuZlh3ZHViMG9FaDRFcHNyTlZvdnFMcXktUlkyQ3dGSk0zOTZoSU1EOTA2OVRsMGlTNXdjWDNVdTJQQUV3WngxQkRmeTdyZ1BRdGxvRTJzdl84SUhIdTJFX3lkUi1hOEk1NFRLcUR2VGlkYmR6VkhPVXoyZFNnVzJJZlA0M1VrREhSTmhUb1cyS0p3U3p6Z21DZ1Q0ZnRlU3laSlE5UGtNMUw5VnpoaHpoOFN6UzRxX19JdS1lSEZfcENyT2N2cE9fX1YzVEVWaTIwV0NPR2FfS1p0R2JZbGdhVlNpbE9hYmdibVpDQkFmQWNNZ3dQV2xubFdFZjQ4WXEzT3pPWUsxby1WVVhNVUF6MFRRQTVTWWVLSldheWVOX0k3T0tGbHVzSHpabFVnX1dlcDFTWkk0dlFwSGg2SDFLcF9aVkNNSG05dTNWcTBMV1ZZWVk0S1d1SGJ1aWVKWm5NZkU3Qy1hUkxUcXV3TkVkMFlheVV5ZlFvZ1lsUnBMbkIzaXI2Qk1wb2ZfNHh1Q2J0RDBWR082ZmlRYzhFbUplQjl6SzN2Y2YwcjIzbkdUNkFFaFA0RkpRcUR0SFgtV2tpX0ZXZkNmTEJha2tNczA5TDlZZ3R2Y2FLR282OG9tWlI5NVVwSHJfN2NNekFTbW82eHBKTkZDTHlzXzZtZWRicC1sS2c2Z1djQm14OGNFZ1J1MTl1dHJ4WWZZUkVNMEtRX2E2NFEweHNCNV9qZlpYSkRpcGhfdVJWdHcxVktzSlk5NUxpY0NGSlRTQjJMdHB1MnpjSFVSMWtZUVYwX1JjcjNrZG5kcy0xSVBtRW55bnFOY2tvYmE4YmN2VFBkTlNOZ2hhNEl5djdiNGF4Vld1cExTeWZ3aGlwdlEtY1RZNjMzTUlmSHpjMkFOVlN3dFB2S081SGlrZ3RDMWZDeGNFa0pBNzQ4dUV2dW8tQXFxbl9IMGtleG1ibllNeE9CdVVKQU1UMTJtSjE3SFFYUDdBQmdrRnpkRTF5cWlTUkl5ZzVkQVJkdFdXTWlBQXVLc0x4bEVpREdpckEzUHVSM3I5eEZET3lUNUxTOHVERFJ2c0lNNTI0bG1YcTBDZWtCaFZTLU5Tanp3d0dsYkRBZlo1dDFuWFR6djQ4SlRmbklOYz0=) # <-- Put your encrypted keystore here
+        FCI_KEYSTORE_PASSWORD: Encrypted(Z0FBQUFBQmc3LUNDenJrdmIzUkZFTnlTVW1SN1prX051V2d4cXNsMHE0MHQ2RVJYdlJZRHdxdE1CU2FrZEljbnFXMjliRl9BRjlFdVh6el9RVUdLNkhZV2g1b3JzNnNIU0E9PQ==) # <-- Put your encrypted keystore password here
+        FCI_KEY_PASSWORD: Encrypted(Z0FBQUFBQmc3LUNDenJrdmIzUkZFTnlTVW1SN1prX051V2d4cXNsMHE0MHQ2RVJYdlJZRHdxdE1CU2FrZEljbnFXMjliRl9BRjlFdVh6el9RVUdLNkhZV2g1b3JzNnNIU0E9PQ==) # <-- Put your encrypted key alias password here
+        FCI_KEY_ALIAS: Encrypted(Z0FBQUFBQmc3LUNhNXpHdEhFUkxkMXFKZTN0a1pMX0hTM20xY19wV3ZjWW93MEU1NjNCdGhid25abTN5aF85dDljRHNEc1lLXzNJc0ZpZS1tbzNhLXhSbllWU2JBNWNCc2c9PQ==) # <-- Put your encrypted key alias here
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Set up key properties
+        script: |
+          echo $FCI_KEYSTORE | base64 --decode > /tmp/keystore.keystore
+          cat >> "$FCI_BUILD_DIR/android/key.properties" <<EOF
+          storePassword=$FCI_KEYSTORE_PASSWORD
+          keyPassword=$FCI_KEY_PASSWORD
+          keyAlias=$FCI_KEY_ALIAS
+          storeFile=/tmp/keystore.keystore
+          EOF
+      - name: Set up local.properties
+        script: |
+          echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
+      - name: Get Flutter packages
+        script: |
+          cd . && flutter packages pub get
+      - name: Flutter analyze
+        script: |
+          cd . && flutter analyze
+      - name: Flutter unit tests
+        script: |
+          cd . && flutter test
+        ignore_failure: true          
+      - name: Install pods
+        script: |
+          find . -name "Podfile" -execdir pod install \;
+      - name: Build APK with Flutter  
+        script: |
+          cd . && flutter build apk --release --build-name=1.0.0 --build-number=$(($(google-play get-latest-build-number --package-name "$PACKAGE_NAME" --tracks="$GOOGLE_PLAY_TRACK") + 1))
+    artifacts:
+      - build/**/outputs/**/*.apk
+      - build/**/outputs/**/*.aab
+      - build/**/outputs/**/mapping.txt
+      - flutter_drive.log
+    publishing:
+      # See the following link for details about email publishing - https://docs.codemagic.io/publishing-yaml/distribution/#email
+      email:
+        recipients:
+          - nihal@nevercode.io
+        notify:
+          success: true     # To not receive a notification when a build succeeds
+          failure: false    # To not receive a notification when a build fails
+
+
+  # ios-workflow:
+  #   name: iOS Workflow
+  #   # instance_type: mac_mini
+  #   max_build_duration: 120
+  #   environment:
+  #     vars:
+  #       XCODE_WORKSPACE: "Runner.xcworkspace"
+  #       XCODE_SCHEME: "Runner"                
+  #       # https://docs.codemagic.io/code-signing-yaml/signing-ios/
+  #       APP_STORE_CONNECT_ISSUER_ID: Encrypted(...) # <-- Put your encrypted App Store Connect Issuer Id here 
+  #       APP_STORE_CONNECT_KEY_IDENTIFIER: Encrypted(...) # <-- Put your encrypted App Store Connect Key Identifier here 
+  #       APP_STORE_CONNECT_PRIVATE_KEY: Encrypted(...) # <-- Put your encrypted App Store Connect Private Key here 
+  #       CERTIFICATE_PRIVATE_KEY: Encrypted(...) # <-- Put your encrypted Certificate Private Key here 
+  #       APPLE_ID: Encrypted(...) # <-- Put your encrypted Apple Id email address here
+  #       APP_SPECIFIC_PASSWORD: Encrypted(...) # <-- Put your encrypted App Specific password here. See here for more information - https://support.apple.com/en-us/HT204397
+  #       BUNDLE_ID: "io.codemagic.flutteryaml" # <-- Put your bundle id here
+  #       APP_STORE_ID: 1111111111 # <-- Use the TestFlight Apple id number (An automatically generated ID assigned to your app) found under General > App Information > Apple ID. 
+  #     flutter: stable
+  #     xcode: latest
+  #     cocoapods: default
+  #   scripts:
+  #     - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
+  #       script: |
+  #         keychain initialize
+  #     - name: Fetch signing files
+  #       script: |
+  #         app-store-connect fetch-signing-files $BUNDLE_ID --type IOS_APP_STORE --create
+  #     - name: Use system default keychain
+  #       script: |
+  #         keychain add-certificates
+  #     - name: Set up code signing settings on Xcode project
+  #       script: |
+  #         xcode-project use-profiles
+  #     - name: Get Flutter packages
+  #       script: |
+  #         cd . && flutter packages pub get
+  #     - name: Flutter analyze
+  #       script: |
+  #         cd . && flutter analyze
+  #     - name: Flutter unit tests
+  #       script: |
+  #         cd . && flutter test
+  #       ignore_failure: true          
+  #     - name: Install pods
+  #       script: |
+  #         find . -name "Podfile" -execdir pod install \;
+  #     - name: Flutter build ipa and automatic versioning
+  #       script: |
+  #         flutter build ipa --release \
+  #         --build-name=1.0.0 \
+  #         --build-number=$(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_ID") + 1)) \
+  #         --export-options-plist=/Users/builder/export_options.plist
+  #   artifacts:
+  #     - build/ios/ipa/*.ipa
+  #     - /tmp/xcodebuild_logs/*.log
+  #     - flutter_drive.log
+  #   publishing:
+  #     # See the following link for details about email publishing - https://docs.codemagic.io/publishing-yaml/distribution/#email
+  #     email:
+  #       recipients:
+  #         - user_1@example.com
+  #         - user_2@example.com
+  #       notify:
+  #         success: true     # To receive a notification when a build succeeds
+  #         failure: false    # To not receive a notification when a build fails
+  #     slack: 
+  #       # See the following link about how to connect your Slack account - https://docs.codemagic.io/publishing-yaml/distribution/#slack
+  #       channel: "#builds"
+  #       notify_on_build_start: true   # To receive a notification when a build starts
+  #       notify:
+  #         success: true               # To receive a notification when a build succeeds
+  #         failure: false              # To not receive a notification when a build fails
+  #     app_store_connect:   # https://docs.codemagic.io/publishing-yaml/distribution              
+  #       apple_id: $APPLE_ID    
+  #       password: $APP_SPECIFIC_PASSWORD
