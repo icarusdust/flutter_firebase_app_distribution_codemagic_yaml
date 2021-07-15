@@ -61,8 +61,8 @@ workflows:
           success: true               # To not receive a notification when a build succeeds
           failure: false              # To not receive a notification when a build fails
       google_play:
-        credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
-        track: $GOOGLE_PLAY_TRACK
+        credentials: Encrypted()
+        track: internal
         in_app_update_priority: 0
       firebase:
         firebase_token: Encrypted(Z0FBQUFBQmc3X0g1bnBYZnJJb1NNbWUxZXc4ZEMzYVhhdzZibUg0YXZWNm92RC1jR2xhWXo1SkE3VmFUZUhCekl4dU02VlRVVEJGOGNFV1hyQUZZU21fenNpNFlBamFuakRtRFZOeVZYOGh1VDVOak1pcndkZTNHYnpvUkdnYkl2QThOYkNyUlNhenVYTzBZclZCS2xHQ19hZWhSbDJ6cmFfUUhyVXd0a0IxMC1WQlhXVzFSZWhENUsyRzlWN3VyYWxBaEpvT2JrdGNiOVg1RXJfeXVrbWowVmJ5dURzMndKUT09)
