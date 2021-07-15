@@ -28,25 +28,42 @@ workflows:
       - name: Get Flutter packages
         script: |
           cd . && flutter packages pub get
-      # - name: Flutter analyze
-      #   script: |
-      #     cd . && flutter analyze
-      # - name: Flutter unit tests
-      #   script: |
-      #     cd . && flutter test
-      #   ignore_failure: true          
+      - name: Flutter analyze
+        script: |
+          cd . && flutter analyze
+      - name: Flutter unit tests
+        script: |
+          cd . && flutter test
+        ignore_failure: true          
       - name: Install pods
         script: |
           find . -name "Podfile" -execdir pod install \;
       - name: Build APK with Flutter  
         script: |
-          cd . && flutter build apk --release 
+          cd . && flutter build apk --release --build-name=1.0.0 --build-number=$(($(google-play get-latest-build-number --package-name "$PACKAGE_NAME") + 1))
     artifacts:
       - build/**/outputs/**/*.apk
       - build/**/outputs/**/*.aab
       - build/**/outputs/**/mapping.txt
       - flutter_drive.log
     publishing:
+      email:
+        recipients:
+          - nihal@nevercode.io
+        notify:
+          success: true
+          failure: false
+      slack: 
+        # See the following link about how to connect your Slack account - https://docs.codemagic.io/publishing-yaml/distribution/#slack
+        channel: '#builds'
+        notify_on_build_start: true   # To receive a notification when a build starts
+        notify:
+          success: true               # To not receive a notification when a build succeeds
+          failure: false              # To not receive a notification when a build fails
+      google_play:
+        credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
+        track: $GOOGLE_PLAY_TRACK
+        in_app_update_priority: 0
       firebase:
         firebase_token: Encrypted(Z0FBQUFBQmc3X0g1bnBYZnJJb1NNbWUxZXc4ZEMzYVhhdzZibUg0YXZWNm92RC1jR2xhWXo1SkE3VmFUZUhCekl4dU02VlRVVEJGOGNFV1hyQUZZU21fenNpNFlBamFuakRtRFZOeVZYOGh1VDVOak1pcndkZTNHYnpvUkdnYkl2QThOYkNyUlNhenVYTzBZclZCS2xHQ19hZWhSbDJ6cmFfUUhyVXd0a0IxMC1WQlhXVzFSZWhENUsyRzlWN3VyYWxBaEpvT2JrdGNiOVg1RXJfeXVrbWowVmJ5dURzMndKUT09)
         android:
