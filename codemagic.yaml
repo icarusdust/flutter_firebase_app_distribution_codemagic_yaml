@@ -61,7 +61,7 @@ workflows:
           success: true               # To not receive a notification when a build succeeds
           failure: false              # To not receive a notification when a build fails
       google_play:
-        credentials: Encrypted()
+        credentials: Encrypted("")
         track: internal
         in_app_update_priority: 0
       firebase:
