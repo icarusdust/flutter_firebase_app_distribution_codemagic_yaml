@@ -48,11 +48,11 @@ workflows:
       - flutter_drive.log
     publishing:
       firebase:
-        firebase_token: Encrypted(Z0FBQUFBQmc3LVJ0U21DVlc0d09MbVR6N0drVTBmSVY2QmtFbVhvdFRtU1JYSFVFaFlzb0dtY2xsc29Tc21jWkRYSW9MMVRpTXF5MDhRendyX1I1SHNLb3lyWGptVUx6a2pHTk1Nc3lIcHB1NDBHbHF2eWxQZFRTbEJNd3hLYTE1aEtSWmVrTk54OWQtMERacEdkTEh4UXd2alJldEZqOEpBdGVSemU4LWN0cnZkZU5vcXJ4b3dyaUdndjF5VVIyZmFFRmtkWlNuZ0R0WDhDUURRNU5PRVpIVVE3aEM1QmMzQT09)
+        firebase_token: Encrypted(Z0FBQUFBQmc3X0g1bnBYZnJJb1NNbWUxZXc4ZEMzYVhhdzZibUg0YXZWNm92RC1jR2xhWXo1SkE3VmFUZUhCekl4dU02VlRVVEJGOGNFV1hyQUZZU21fenNpNFlBamFuakRtRFZOeVZYOGh1VDVOak1pcndkZTNHYnpvUkdnYkl2QThOYkNyUlNhenVYTzBZclZCS2xHQ19hZWhSbDJ6cmFfUUhyVXd0a0IxMC1WQlhXVzFSZWhENUsyRzlWN3VyYWxBaEpvT2JrdGNiOVg1RXJfeXVrbWowVmJ5dURzMndKUT09)
         android:
           app_id: 1:576069540849:android:6af0d182c4d0302e530250
           groups: 
-            - androidTesters
+            - skyrocket
 
 
 
